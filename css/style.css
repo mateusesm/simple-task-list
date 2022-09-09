@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+}
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  width: 30rem;
+  padding: 1rem;
+  margin-top: 1rem;
+
+}
+
+.container .container-tasks {
+
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+
+}
+
+.container .container-tasks button {
+
+  cursor: pointer;
+
+}
+
+.container .container-list {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.container .container-list .list {
+
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+}
+
+.container .container-list .list li button {
+
+  margin-left: 1rem;
+  cursor: pointer;
+
+}
